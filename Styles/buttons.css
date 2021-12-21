@@ -1,0 +1,16 @@
+.button_white_borders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 146, 83);
+    transition: 0.3s;
+}
+
+.button_white_borders:hover {
+    background: rgb(255, 146, 83);
+    color: #fff;
+    transition: 0.3s;
+}
